@@ -66,11 +66,6 @@ p {
     line-height: 1.4;
 }
 
-hr {
-    border-style: dashed;
-    margin: auto;
-}
-
 .container {
     width: 800px;
     margin: 0 auto;
@@ -192,8 +187,56 @@ hr {
     padding: 2.5%;
 }
 
-.container.about-page header {
+.container.about-page .top-header {
     margin-bottom: 0;
+    border-bottom: 1px dashed black;
+}
+
+.container.about-page .middle-content {
+    padding: 0 2%;
+    margin-top: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: none;
+}
+
+.container.about-page .middle-content article {
+    width: 48%;
+    padding-bottom: 22px;
+    margin: inherit;
+    border-bottom: 1px dashed black;
+}
+
+.container.about-page .middle-content article header {
+    margin: 0;
+}
+
+.container.about-page .middle-content article header h2 {
+    padding: 0;
+    margin: 3% 0;
+}
+
+.container.about-page .middle-content article div:first-child {
+    padding-top: 1%;
+    margin-bottom: 20px;
+}
+
+.container.about-page .middle-content article div p {
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 35%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3%;
+}
+
+.container.about-page .bottom-content {
+    padding: 1%;
+    margin-bottom: 9px;
 }
 
 footer {
