@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+hr {
+    border-style: dashed;
+    margin: auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -84,7 +89,7 @@ p {
     margin: 0 auto;
 }
 
-header {
+.container header {
     margin-bottom: 20px;
 }
 
@@ -181,6 +186,14 @@ header {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+/* about page CSS */
+.container.about-page header div {
+    padding: 2.5%;
+}
+
+.container.about-page header {
+    margin-bottom: 0;
 }
 
 footer {
