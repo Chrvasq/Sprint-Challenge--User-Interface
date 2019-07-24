@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+.top-nav {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 37px;
+}
+
+.top-nav a:nth-child(n+2):nth-child(-n+6) {
+    text-decoration: none;
+    color: black;
+    padding-top: 3%;
+    margin: 0 auto;
+}
+
+.container header {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +129,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:first-child {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:last-child {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +181,62 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+/* about page CSS */
+.container.about-page header div {
+    padding: 2.5%;
+}
+
+.container.about-page .top-header {
+    margin-bottom: 0;
+    border-bottom: 1px dashed black;
+}
+
+.container.about-page .middle-content {
+    padding: 0 2%;
+    margin-top: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: none;
+}
+
+.container.about-page .middle-content article {
+    width: 48%;
+    padding-bottom: 22px;
+    margin: inherit;
+    border-bottom: 1px dashed black;
+}
+
+.container.about-page .middle-content article header {
+    margin: 0;
+}
+
+.container.about-page .middle-content article header h2 {
+    padding: 0;
+    margin: 3% 0;
+}
+
+.container.about-page .middle-content article div:first-child {
+    padding-top: 1%;
+    margin-bottom: 20px;
+}
+
+.container.about-page .middle-content article div p {
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 35%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3%;
+}
+
+.container.about-page .bottom-content {
+    padding: 1%;
+    margin-bottom: 9px;
 }
 
 footer {
